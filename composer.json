@@ -1,0 +1,21 @@
+{
+    "name": "pokedex/pokedex-app",
+    "description": "A PHP-based Pokedex application using Bootstrap 5, jQuery, and Guzzle",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pokedex\\": "classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pokedex Developer",
+            "email": "developer@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
