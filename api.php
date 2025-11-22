@@ -9,6 +9,7 @@ require_once __DIR__ . '/classes/PokemonAPI.php';
 // Handle preflight requests
 //probando si funciona
 //ayuda
+//porque no funci
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
     exit();
